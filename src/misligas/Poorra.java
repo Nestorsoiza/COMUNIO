@@ -1,6 +1,6 @@
 package misligas;
 
-public class Poorra implements Constantes {
+public class Poorra implements Constantes, MetodosInterfaz {
 	private double bote;
 
 	public Poorra() {
@@ -38,5 +38,7 @@ public class Poorra implements Constantes {
 				}
 			}
 		}
+	}
+	
 	}
 }
